@@ -2,6 +2,33 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|Ubuntu&display=swap');
 
+
+/*Links etiqueta <a>*/
+a:link{
+    color: burlywood;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(170, 223, 253);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active{
+    color: rgb(224, 22, 157);
+    background-color: transparent;
+    text-decoration: underline;
+}
+/*End Links etiqueta <a>*/
+
 body{
     background-image: url(img/overlay.jpg),linear-gradient(45deg, #6E436C 25%, #2A4584 75%);
     background-size: 256px, cover;
@@ -10,6 +37,29 @@ body{
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
     margin: 0 auto;
+}
+
+footer{
+    color: rgba(255,255,255,0.3);
+    margin: 8em 0 4em 0;
+    padding: 0 2em;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: .3em;
+}
+
+ul>li{
+    list-style: none;
 }
 
 .description-one{
@@ -22,6 +72,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 15px;
 }
 
 .box{
@@ -44,6 +95,7 @@ h2{
 .text-two{
     text-align: center;
     font-size:large;
+    margin: 35px;
 }
 
 .widthtwo{
