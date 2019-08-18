@@ -1,0 +1,57 @@
+/*****fonts google*****/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Ubuntu&display=swap');
+
+body{
+    background-image: url(img/overlay.jpg),linear-gradient(45deg, #6E436C 25%, #2A4584 75%);
+    background-size: 256px, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
+
+.description-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-two{
+    display: flex;
+}
+
+.box{
+    margin: 0 15px 0 0;
+}
+
+h2{
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 150%;
+}
+
+.text-one{
+    font-size:480%;
+    font-family: 'Anton';
+    color: white;
+    text-shadow: 4px 3px 0 #7A7A7A;
+}
+
+.text-two{
+    text-align: center;
+    font-size:large;
+}
+
+.widthtwo{
+    width: 45vw;
+    color: white;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
