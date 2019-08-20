@@ -211,6 +211,7 @@ smalltext{
 .suscribete {
     color: rgb(42, 38, 241) !important;
     border-radius: 40px;
+    font-family: Ubuntu;
     text-transform: uppercase;
     text-decoration: none;
     background: rgb(255, 238, 7);
@@ -222,8 +223,8 @@ smalltext{
 
 
 .suscribete:hover {
-    color: #ffffff !important;
-    background: #e2c002;
+    color: #9711c0 !important;
+    background: #faf9f6;
     border-color: #f5b812 !important;
     transition: all 0.4s ease 0s;
 }
