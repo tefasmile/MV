@@ -1,6 +1,6 @@
 /*****fonts google*****/
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Anton|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 body{
@@ -18,6 +18,12 @@ li{
 
 ol > li{
     margin: 1em 0;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
 }
 
 
@@ -61,6 +67,14 @@ h2, .text-important{
 
 .center{
     text-align: center;
+}
+
+.text-garantia{
+    font-size: 170%;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
 }
 
 
@@ -187,3 +201,85 @@ smalltext{
 /*
 ******END CLOCK*****/
 
+/*
+******Btn suscribe*****/
+.pay{
+    padding-top: 38px; 
+}
+
+
+.suscribete {
+    color: rgb(42, 38, 241) !important;
+    border-radius: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(255, 238, 7);
+    padding: 20px;
+    border: 4px solid #dddbdb !important;
+    font-size: 165%;
+    transition: all 0.4s ease 0s;
+}
+
+
+.suscribete:hover {
+    color: #ffffff !important;
+    background: #e2c002;
+    border-color: #f5b812 !important;
+    transition: all 0.4s ease 0s;
+}
+
+.garantia{
+    background: rgb(243, 146, 35);
+    width: 100%;
+    display: flex;
+    margin-top: 58px;
+}
+
+.info-garantia{
+    width: 965px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 45px;
+}
+
+.bx-infogarantia{
+    padding-left: 2em;
+}
+
+.master{
+    background: rgb(15, 140, 223); 
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.text-master{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.image{
+    border-radius: 50%;
+}
+
+.commit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-testimonio{
+    display: flex;
+    width: 965px;
+    margin: 0 auto;
+}
+
+.nameperson{
+    align-self: flex-end;
+}
+
+.comment{
+    flex-direction: column;
+}
