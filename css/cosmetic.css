@@ -34,6 +34,11 @@ h2, .text-important{
     font-weight: normal;
 }
 
+/* video{
+    width: 100%;
+    height: auto;
+} */
+
 .ins{
     margin-top: 1em;
 }
@@ -139,8 +144,15 @@ h2, .text-important{
 
 
 /***Styles of video***/
+.box-video{
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+}
+
 .videoWrapper{
     position: relative;
+    display:block;
+    width: 100%;
 	padding-bottom: 56.25%; 
 	padding-top: 25px;
     height: 0;
