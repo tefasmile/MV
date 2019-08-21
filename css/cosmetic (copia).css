@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 body{
-    /* margin: 0 auto; */
+    margin: 0 auto;
     font-size: 16px;
     font-weight: 500;
     color: white;
@@ -16,13 +16,8 @@ li{
     text-align: justify;
 }
 
-ol{
-    margin: 0;
-    padding: 0;
-}
-
 ol > li{
-    /* margin: 1em 0; */
+    margin: 1em 0;
 }
 
 footer{
@@ -35,31 +30,14 @@ footer{
 h2, .text-important{
     color: white;
     font-family: 'Ubuntu';
-    font-size: 18px;
+    font-size: 150%;
     font-weight: normal;
-    margin-top: 1.5em;
 }
 
-.doer{
-    color: white;
-    font-family: 'Ubuntu';
-    font-size: 18px;
-    font-weight: normal;
-    margin-top: 1.5em;
-    text-align: center;
-}
-
-
-.cover-a{
+/* video{
     width: 100%;
-    max-width: 400px;
     height: auto;
-    display: block;
-}
-
-.cover-b{
-    display: none;
-}
+} */
 
 .ins{
     margin-top: 1em;
@@ -68,8 +46,7 @@ h2, .text-important{
 .text-white{
     color: white;
     font-family: 'Ubuntu';
-    /* font-size: 245%; */
-    font-size: 25px;
+    font-size: 245%;
     font-weight: normal;
     text-align: center;
     text-shadow: 2px 2px 5px #292727;
@@ -80,42 +57,34 @@ h2, .text-important{
 }
 
 .box-one{
-    text-align: center;
+    padding: 15px;
 }
 
 .box-two{
-    /* display: flex;
-    justify-content: space-between; */
     display: flex;
-    flex-direction: column;
-    margin-top: 2.2em;
+    justify-content: space-between;
 }
 
 .box-one, .box-two{
-    /* display: flex;
-    margin-bottom: 45px; */
+    display: flex;
+    margin-bottom: 45px;
 }
 
 .center{
     text-align: center;
 }
 
-.button_cont{
-    font-size:0.875em;
-}
-
 .text-garantia{
-    font-size: 123%;
+    font-size: 170%;
     font-weight: bold;
     color: white;
     text-transform: uppercase;
     font-family: 'Russo One', sans-serif;
-    margin: 1.5em;
 }
 
 
 .text-one{
-    font-size:25px;
+    font-size:315%;
     font-family: 'Ubuntu';
     color: rgb(255, 238, 7);
     text-transform: uppercase;
@@ -142,33 +111,26 @@ h2, .text-important{
 }
 
 .features, .function{
-    /* width: 50%; */
+    width: 50%;
 }
 
 .features{
-    /* flex-grow: 2;
+    flex-grow: 2;
     margin-right: 15px;
     position: relative;
-    right: 35px; */
+    right: 35px;
     font-family: 'Lato';
-    margin: 1.5em;
 }
 
 .function{
-    /* position: relative;
-    left: 25px; */
+    position: relative;
+    left: 25px;
 }
 
 .lato{
     font-family: 'Lato';
     padding-left: 0.1em;
     padding-bottom: 1em;
-    margin: 1.5em;
-}
-
-.info{
-    /* text-align: center; */
-    margin: 1em 1em;
 }
 
 .yellow{
@@ -178,20 +140,6 @@ h2, .text-important{
 
 .yellowtext{
     color: rgb(255, 238, 7);
-}
-
-/*Testimonios**/
-.testimonios{
-    display: flex;
-    flex-direction: column;
-}
-
-.testimonio, .nameperson{
-    margin: 1.5em;
-}
-
-.t-one{
-    flex-direction: column;
 }
 
 
@@ -219,8 +167,8 @@ h2, .text-important{
 }
 
 #content{
-    /* margin: 0 auto;
-    width: 965px; */
+    margin: 0 auto;
+    width: 965px;
 }
 
 
@@ -239,18 +187,16 @@ h2, .text-important{
     display: flex;
     font-weight: 100; 
     text-align: center; 
-    /* font-size: 30px;  */
+    font-size: 30px; 
 } 
 
-/*mobile design*/
 #clockdiv > div{ 
-    padding: 5px; 
+    padding: 10px; 
     border-radius: 3px; 
     background: #00BF96; 
     display: inline-block;
     margin: 0 3px; 
 } 
-
 
 #clockdiv div > span{ 
     padding: 15px; 
@@ -270,7 +216,7 @@ smalltext{
 /*
 ******Btn suscribe*****/
 .pay{
-    padding-top: 67px; 
+    padding-top: 38px; 
 }
 
 
@@ -283,8 +229,7 @@ smalltext{
     background: rgb(255, 238, 7);
     padding: 20px;
     border: 4px solid #dddbdb !important;
-    /* font-size: 165%; */
-    font-weight: bold;
+    font-size: 165%;
     transition: all 0.4s ease 0s;
 }
 
@@ -308,12 +253,10 @@ smalltext{
     margin: 0 auto;
     display: flex;
     margin-top: 45px;
-    flex-direction: column;
-    align-items: center;
 }
 
 .bx-infogarantia{
-    /* padding-left: 2em; */
+    padding-left: 2em;
 }
 
 .master{
@@ -325,10 +268,9 @@ smalltext{
 
 .text-master{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 123%;
+    font-size: 170%;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .image{
@@ -343,10 +285,8 @@ smalltext{
 
 .info-testimonio{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* width: 965px;
-    margin: 0 auto; */
+    width: 965px;
+    margin: 0 auto;
 }
 
 .nameperson{
@@ -359,150 +299,15 @@ smalltext{
 
 
 /***Media Queries****/
+@media only screen and (max-width: 600px){
 
-/*  Ipads  ----------*/
-@media only screen and (min-width: 600px) and (min-width: 768px){
-
-    h2{
-        font-size: 213%;
-        margin-top: 8px;
-    }
-
-    .cover-b{
-        display: none;
-    }
-    
-    .text-one{
-        font-size: 283%;
-    }
-
-    .text-important{
-        font-size: 213%;
-    }
-
-    .cover-a{
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        margin: auto;
-    }
-
-    .doer{
-        font-size: 250%;
-    }
-
-    .text-white{
-        font-size: 265%;
-    }
-
-    #clockdiv > div{ 
-        padding: 10px;
-        font-size: 34px; 
-    }
-
-    .suscribete{
-        font-size: 25px;
-    }
-
-    .pay{
-        padding-top: 16%;
-    }
-
-    .text-garantia{
-        font-size: 183%;
-    }
-
-    .text-master{
-        font-size: 183%;
-    }
-
-
-}
-
-
-/* Desktops and laptops ----------- */
-/* @media only screen  and (min-width : 1000px) and(min-width : 1224px) and (min-width : 1824px) */
-@media only screen  and (min-width : 1000px){
-    
-    body{
-        background-color: aqua;
-    }
-    
-    .info {
+    #content{
         display: flex;
-        flex-direction: column;
-        margin: 106px;
-    }
-    
-    .cover-a{
-        display: none;
     }
 
-    .cover-b{
-        display: block;
-    }
-
-    .box-video{
-        width: 68%;
-        margin: auto;
-    }
-
-
-    .box-one{
+    .description-one{
         display: flex;
-        margin-top: -40px;
-        padding-right: 1em;
     }
-
-    .text-one{
-        font-size: 385%;
-    } 
-
-    .text-important{
-        padding-right: .8em;
-    }
-
-
-    .box-two{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .features{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 200%;
-    }
-
-    .pay {
-        padding-top: 10%;
-    }
-
-    .suscribete {
-        font-size: 33px;
-    }
-
-    .info-garantia{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .info-testimonio{
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    .testimonios {
-        display: flex;
-        flex-direction: column;
-        width: 965px;
-        margin: auto;
-    }
-
-
-    
-
 
 
 }
